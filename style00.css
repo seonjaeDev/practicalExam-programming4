@@ -6,7 +6,10 @@ body {
 	margin: 0;
 	font: 1em Arial, sans-serif;
 }
-
+img {
+	width: 100%;
+	height: auto;
+}
 
 header, nav, footer {
 	padding: 0px 45px;
@@ -22,12 +25,53 @@ header div {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 40px;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	color: white;
-	text-shadow: 2px 2px 10px black;
+	text-shadow: 5px 5px 12px black;
+}
+header p {
+	font-weight: bold;
+	/* color: #4060A8; */
+}
+nav, nav ul, section {
+	overflow: hidden;
 }
 nav {
 	height: 33px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background: #f3f3f3;
+	box-shadow: 5px 5px 10px;
+ display: flex;
+	justify-content: space-between; 
+	align-items: center;
+}
+nav ul {
+	width: 100%;
+	border: 1px solid #e7e7e7;
+ list-style-type: none;
+}
+nav li {
+	float: left;
+	border-right: 1px solid #BBB;
+}
+nav li:last-child {
+	border-right: none;
+}
+nav li a {
+ padding: 8px;
+ display: block;
+ color: #666;
+ text-align: center;
+ text-decoration: none;
+}
+nav li a:hover:not(.active) {
+ background: #ddd;
+}
+nav li a.active {
+	background: rgb(228, 132, 132);
+	color: white;
 }
 section, footer {
 	max-height: 575px;
@@ -35,8 +79,25 @@ section, footer {
 section {
 	padding: 35px 40px;
 }
+section hr {
+ margin: 38px 0px 0px 0px;
+}
 
 
+.flex-container {
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+
+
+#flex2 div {
+	width: 50%;
+	height: auto;
+	padding: 10px;
+}
 #schoolName {
+	/* text-shadow: 3px 3px 10px #E8B0A8; */
 	font-size: 1.8em;
+	color: #E8B0A8;
 }
