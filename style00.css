@@ -9,6 +9,7 @@ body {
 img {
 	width: 100%;
 	height: auto;
+	box-shadow: 5px 5px 12px black;
 }
 
 
