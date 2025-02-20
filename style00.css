@@ -11,7 +11,8 @@ img {
 	height: auto;
 }
 
-header, nav, footer {
+
+header, nav, section, footer {
 	padding: 0px 45px;
 }
 header {
@@ -74,7 +75,7 @@ nav li a.active {
 	color: white;
 }
 section, footer {
-	max-height: 575px;
+ min-height: 575px;
 }
 section {
 	padding: 35px 40px;
@@ -84,10 +85,23 @@ section hr {
 }
 
 
+/* .academic { */
+	/* text-align: center; */
+/* } */
 .flex-container {
 	width: 100%;
 	height: auto;
+	margin: 8px 0px;
 	display: flex;
+}
+.img-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.img-div img {
+	width: 350px;
+	height: auto;
 }
 
 
