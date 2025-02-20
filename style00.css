@@ -101,8 +101,17 @@ section hr {
 	align-items: center;
 }
 .img-div img {
-	width: 350px;
+	width: 300px;
 	height: auto;
+}
+.mission-vision {
+	margin: 8px 8px;
+	width: 40%;
+	box-shadow: 5px 5px 10px black;
+	border: 8px inset brown;
+	background: url(jesus.jpeg) no-repeat;
+	background-size: cover;
+	/* filter: blur(8px); */
 }
 
 
