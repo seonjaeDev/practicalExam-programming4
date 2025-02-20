@@ -6,11 +6,6 @@ body {
 	margin: 0;
 	font: 1em Arial, sans-serif;
 }
-img {
-	width: 100%;
-	height: auto;
-	box-shadow: 5px 5px 12px black;
-}
 
 
 header, nav, section, footer {
@@ -85,6 +80,14 @@ section hr {
  margin: 38px 0px 0px 0px;
 }
 
+img {
+	width: 100%;
+	height: auto;
+	box-shadow: 5px 5px 12px black;
+}
+p {
+	text-align: justify;
+}
 
 /* .academic { */
 	/* text-align: center; */
@@ -101,7 +104,7 @@ section hr {
 	align-items: center;
 }
 .img-div img {
-	width: 300px;
+	width: 75%;
 	height: auto;
 }
 .mission-vision {
