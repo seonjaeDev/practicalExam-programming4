@@ -109,12 +109,15 @@ p {
 }
 .mission-vision {
 	margin: 8px 8px;
-	width: 40%;
+	width: 100%; 
 	box-shadow: 5px 5px 10px black;
 	border: 8px inset brown;
 	background: url(jesus.jpeg) no-repeat;
 	background-size: cover;
 	/* filter: blur(8px); */
+}
+.mission-vision h3 {
+	text-align: center;
 }
 
 
@@ -123,8 +126,14 @@ p {
 	height: auto;
 	padding: 10px;
 }
+#mission {
+	width: 60%;
+}
 #schoolName {
 	/* text-shadow: 3px 3px 10px #E8B0A8; */
 	font-size: 1.8em;
 	color: #E8B0A8;
+}
+#vision {
+	width: 20%;
 }
