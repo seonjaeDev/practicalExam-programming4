@@ -92,6 +92,12 @@ p {
 /* .academic { */
 	/* text-align: center; */
 /* } */
+.box1 {
+	/* flex-grow: 2; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .flex-container {
 	width: 100%;
 	height: auto;
@@ -101,6 +107,7 @@ p {
 .flex-container div {
 	flex-grow: 1;
 	padding: 10px;
+	text-align: center;
 }
 .img-div {
 	display: flex;
