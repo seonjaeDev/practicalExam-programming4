@@ -1,0 +1,21 @@
+* {
+	
+	outline: 1px dashed red;
+	
+}
+
+body {
+	
+	margin: 0;
+	height: 100vh;
+	
+}
+
+header, section, footer {
+	
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
