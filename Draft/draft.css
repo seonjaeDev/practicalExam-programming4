@@ -1,6 +1,6 @@
 * {
 	
-	outline: 1px dashed red;
+	/* outline: 1px dashed red; */
 	
 }
 
@@ -9,6 +9,7 @@ body {
 	margin: 0;
 	/* height: 100vh; */
 	 /* not really needed */
+	font: 1em Arial, sans-serif;
 	
 }
 
@@ -19,4 +20,65 @@ header, section, footer {
 	justify-content: center;
 	align-items: center;
 	
+}
+
+header {
+	
+	flex-direction: column;
+	font-size: 1.5em;
+
+}
+
+nav {
+
+ position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background: #757575;
+	box-shadow: 5px 5px 10px;
+ display: flex;
+	justify-content: space-between; 
+	align-items: center;
+ /* color: #fff;	 */
+
+}
+nav ul {
+ 
+	margin: 0;
+	width: 100%;
+	border: 1px solid #424242;
+ list-style-type: none;
+ 
+}
+nav li {
+
+	float: left;
+	border-right: 1px solid #BBB;
+
+}
+nav li:last-child {
+
+	border-right: none;
+
+}
+nav li a {
+
+ padding: 8px;
+ display: block;
+ color: #fff;
+ text-align: center;
+ text-decoration: none;
+
+}
+nav li a:hover:not(.active) {
+
+ background: #ddd;
+	color: black;
+
+}
+nav li a.active {
+
+	background: #272727;
+	color: white;
+
 }
