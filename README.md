@@ -2,3 +2,4 @@
 
 [x] tabs are overrated  
 [] fix website icon
+[] responsive 
