@@ -19,7 +19,7 @@ header, nav, section, footer {
 }
 header {
 	
-	background: url(shjcsOutside.jpg) no-repeat center;
+	background: url(shjcsOutside.jpg) no-repeat;
 	background-attachment: fixed;
  background-size: cover;
 	background-position: 0% 0%;
