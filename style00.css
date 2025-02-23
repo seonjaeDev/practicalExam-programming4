@@ -122,8 +122,10 @@ p {
 	align-items: center;
 }
 .img-div img {
+	
 	width: 80%;
 	height: auto;
+	
 }
 .mission-vision {
 	margin: 8px 8px;
