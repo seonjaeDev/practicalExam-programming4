@@ -7,16 +7,23 @@ body {
 	font: 1em Arial, sans-serif;
 }
 
+header, section, footer {
+	
+	height: 100vh;
+	
+}
+
 
 header, nav, section, footer {
 	padding: 0px 45px;
 }
 header {
-	height: 575px;
+	
 	background: url(shjcsOutside.jpg) no-repeat center;
 	background-attachment: fixed;
  background-size: cover;
 	background-position: 0% 0%;
+	
 }
 header div {
 	position: -webkit-sticky;
